@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cal+Sans&family=Courgette&family=Didact+Gothic&family=Fjalla+One&family=Fredoka:wght@300..700&family=Great+Vibes&family=Lexend:wght@100..900&family=Poiret+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.2));
+}
+
+.nav-konten {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+dl,
+ol,
+ul {
+  margin-bottom: 0rem;
+}
+
+*,
+::after,
+::before {
+  box-sizing: unset;
+}
+
+.navlist ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0rem;
+  padding-left: 0rem;
+}
+
+.navlist ul li {
+  list-style: none;
+}
+
+.navlist ul li a {
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  transition: 0.3s all;
+}
+
+.navlist ul li a:hover {
+  color: rgb(0, 125, 197);
+}
+
+.navlist ul img {
+  width: 280px;
+  height: 85px;
+  padding: 10px;
+}
+
+.fiture {
+  padding-right: 1.5rem;
+}
+
+.fiture ul {
+  display: flex;
+}
+
+.fiture li {
+  margin: 0 15px;
+}
+
+.fiture li img {
+  width: 25px;
+  height: 25px;
+}
+
+.fiture input {
+  width: 15rem;
+  height: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  color: black;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fiture input::placeholder {
+  color: rgb(182, 182, 182);
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.fiture input:focus::placeholder {
+  opacity: 0;
+}
+
+/* First Konten */
+.first-konten {
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/design-01jwj0mzpc-1748656480.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-konten .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.carousel {
+  margin-top: -35px;
+}
+
+.carousel-item .konten {
+  width: 80%;
+  height: 30%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-item .konten {
+  align-items: center;
+}
+
+.carousel-item .konten .text button {
+  width: 6.5rem;
+  height: 2.2rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 125, 197);
+  color: white;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.3s all;
+}
+
+.carousel-item .konten .text button:hover {
+  background-color: rgb(0, 77, 139);
+}
+
+.carousel-item .konten .text h1 {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.8rem;
+  color: rgb(245, 245, 245);
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.3));
+}
+
+.carousel-item .konten .text .pemilik {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -5px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.carousel-item .konten .text p {
+  width: 550px;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 1rem;
+}
+
+.konten-img {
+  position: relative;
+  width: 430px;
+  height: 380px;
+  /* background-color: aqua; */
+}
+
+.konten-img img {
+  width: 245px;
+  height: 380px;
+  position: absolute;
+  border-radius: 10px;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.4));
+}
+
+.book {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: 1s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.book.show:nth-child(1) {
+  left: -180px;
+  transform: rotateY(-10deg);
+}
+.book.show:nth-child(2) {
+  left: -60px;
+  transform: rotateY(-5deg);
+}
+.book.show:nth-child(3) {
+  left: 60px;
+  transform: rotateY(5deg);
+}
+.book.show:nth-child(4) {
+  left: 180px;
+  transform: rotateY(10deg);
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  justify-items: center;
+}
