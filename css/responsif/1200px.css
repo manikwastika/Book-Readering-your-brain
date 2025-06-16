@@ -1,0 +1,152 @@
+@media (max-width: 1200px) {
+  .navlist ul img {
+    width: 230px;
+    height: 70px;
+    padding: 15px 10px;
+  }
+
+  .navlist ul li a {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+
+  .fiture {
+    padding-right: 0rem;
+    margin-right: 1rem;
+  }
+
+  .fiture input {
+    width: 12rem;
+    height: 0.25rem;
+    font-size: 0.8rem;
+  }
+
+  .fiture li img {
+    width: 21px;
+    height: 21px;
+  }
+
+  .konten-img {
+    width: 120px;
+    height: 250px;
+  }
+
+  .konten-img img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .book.show:nth-child(1) {
+    left: -180px;
+    transform: rotateY(-10deg);
+  }
+  .book.show:nth-child(2) {
+    left: -130px;
+    transform: rotateY(-5deg);
+  }
+  .book.show:nth-child(3) {
+    left: -80px;
+    transform: rotateY(5deg);
+  }
+  .book.show:nth-child(4) {
+    left: -30px;
+    transform: rotateY(10deg);
+  }
+
+  .carousel-item .konten .text h1 {
+    font-size: 1.6rem;
+  }
+  .carousel-item .konten .text .pemilik {
+    font-size: 0.6rem;
+  }
+  .carousel-item .konten .text p {
+    width: 310px;
+    font-size: 0.65rem;
+  }
+  .carousel-item .konten .text button {
+    width: 4.5rem;
+    height: 1.7rem;
+    font-size: 0.9rem;
+  }
+
+  .kategori .title h1 {
+    font-size: 2rem;
+  }
+
+  .selengkapnya h5 {
+    font-size: 0.75rem;
+  }
+
+  .selengkapnya img {
+    width: 19px;
+    height: 19px;
+  }
+
+  .col div {
+    width: 125px;
+    height: 60px;
+  }
+
+  .col .satu img,
+  .col .dua img,
+  .col .tiga img,
+  .col .empat img,
+  .col .lima img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .col .satu h4,
+  .col .dua h4,
+  .col .tiga h5,
+  .col .empat h5 {
+    font-size: 1rem;
+  }
+
+  .col .lima h4 {
+    font-size: 1rem;
+  }
+
+  .kategori .title h1,
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 11rem;
+    height: 450px;
+  }
+
+  .card img {
+    height: 250px;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
+  .card-text {
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    width: 3rem;
+    height: 0.9rem;
+    font-size: 0.7rem;
+  }
+
+  .konten-blog p,
+  .text-form p {
+    font-size: 0.95rem;
+  }
+
+  .saran-mereka form {
+    padding: 30px;
+  }
+  .saran-mereka form ul li input {
+    width: 17rem;
+    height: 1.65rem;
+  }
+
+  .saran-mereka form ul li textarea {
+    width: 17rem;
+  }
+}

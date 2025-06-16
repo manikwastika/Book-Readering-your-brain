@@ -1,0 +1,86 @@
+@media (max-width: 1025px) {
+  .navlist ul {
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    display: block;
+    right: -100%;
+    top: 105px;
+    transition: 0.5s all ease-in-out;
+    text-align: center;
+    padding-top: 10%;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.2));
+  }
+
+  .navlist ul li {
+    padding: 35px 0px;
+  }
+
+  .navlist ul li a {
+    font-size: 1rem;
+  }
+
+  .navlist ul.active {
+    right: 0%;
+  }
+
+  .nav-konten .fiture ul li .burgir-icon {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+
+  .carousel-item .konten {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .carousel-item .konten .text {
+    margin-top: 65px;
+    text-align: center;
+  }
+
+  .konten-img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .konten-img img {
+    width: 150px;
+    height: 250px;
+  }
+
+  .book.show:nth-child(1) {
+    display: none !important;
+  }
+  .book.show:nth-child(2) {
+    left: 80px;
+    transform: rotateY(-5deg);
+  }
+  .book.show:nth-child(3) {
+    left: -80px;
+    transform: rotateY(5deg);
+  }
+  .book.show:nth-child(4) {
+    left: 0px;
+    transform: rotateY(10deg);
+  }
+
+  .carousel-item .konten .text h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-item .konten .text .pemilik {
+    font-size: 0.7rem;
+  }
+  .carousel-item .konten .text p {
+    width: 400px;
+    font-size: 0.8rem;
+  }
+  .carousel-item .konten .text button {
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+}

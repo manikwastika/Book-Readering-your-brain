@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+  .col .empat,
+  .col .lima {
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .saran-mereka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-form p {
+    display: none;
+  }
+
+  .kartu-produk-satu .card {
+    margin: 0 2rem;
+  }
+
+  .footer_konten {
+    width: 80%;
+  }
+}

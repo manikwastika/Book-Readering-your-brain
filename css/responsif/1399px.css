@@ -1,0 +1,122 @@
+@media (max-width: 1399px) {
+  .carousel-item .konten .text h1 {
+    font-size: 1.9rem;
+  }
+
+  .carousel-item .konten .text .pemilik {
+    font-size: 0.7rem;
+  }
+
+  .carousel-item .konten .text p {
+    width: 325px;
+    font-size: 0.7rem;
+  }
+
+  .konten-img {
+    width: 205px;
+    height: 300px;
+  }
+
+  .konten-img img {
+    width: 185px;
+    height: 300px;
+  }
+
+  .book.show:nth-child(1) {
+    left: -180px;
+    transform: rotateY(-10deg);
+  }
+  .book.show:nth-child(2) {
+    left: -120px;
+    transform: rotateY(-5deg);
+  }
+  .book.show:nth-child(3) {
+    left: -40px;
+    transform: rotateY(5deg);
+  }
+  .book.show:nth-child(4) {
+    left: 20px;
+    transform: rotateY(10deg);
+  }
+
+  .carousel-item .konten .text button {
+    width: 5rem;
+    height: 1.9rem;
+  }
+
+  .card img {
+    height: 330px;
+  }
+
+  .card {
+    width: 15rem;
+    height: 550px;
+  }
+
+  .col div {
+    width: 150px;
+    height: 80px;
+  }
+
+  .col .satu img,
+  .col .dua img,
+  .col .tiga img,
+  .col .empat img,
+  .col .lima img {
+    width: 33px;
+    height: 33px;
+  }
+
+  .col .satu h4,
+  .col .dua h4,
+  .col .tiga h5,
+  .col .empat h5 {
+    font-size: 1.3rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .konten-blog p,
+  .text-form p {
+    font-size: 1rem;
+  }
+
+  .saran-mereka form {
+    padding: 30px;
+  }
+
+  .saran-mereka label {
+    font-size: 0.95rem;
+  }
+
+  .saran-mereka form ul li input {
+    width: 18rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    border-radius: 13px;
+  }
+  .saran-mereka form ul li textarea {
+    height: 3.5rem;
+  }
+
+  .text-form p {
+    margin-left: 100px;
+  }
+
+  .footer ul h5 {
+    font-size: 1rem;
+  }
+  .footer ul li {
+    font-size: 0.9rem;
+  }
+  .konten3 ul li img {
+    width: 20px;
+    height: 20px;
+  }
+}
