@@ -1,0 +1,22 @@
+@media (max-width: 445px) {
+  .carousel-item .konten .text p {
+    width: 315px;
+  }
+
+  .kategori .title h1,
+  .title h1 {
+    font-size: 1.5rem;
+  }
+
+  .selengkapnya {
+    margin-right: 2.5rem;
+  }
+
+  .kartu-produk-satu .card {
+    margin: 0 1rem;
+  }
+
+  .konten-blog p {
+    font-size: 0.75rem;
+  }
+}

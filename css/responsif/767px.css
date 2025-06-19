@@ -22,4 +22,8 @@
   .footer_konten {
     width: 80%;
   }
+
+  .fiture .hilang {
+    display: none;
+  }
 }

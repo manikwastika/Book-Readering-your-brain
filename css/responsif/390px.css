@@ -1,0 +1,65 @@
+@media (max-width: 390px) {
+  .konten-img {
+    width: 90px;
+    height: 150px;
+  }
+
+  .konten-img img {
+    width: 90px;
+    height: 150px;
+  }
+
+  .book.show:nth-child(1) {
+    display: none !important;
+  }
+  .book.show:nth-child(2) {
+    left: 40px;
+    transform: rotateY(-5deg);
+  }
+  .book.show:nth-child(3) {
+    left: -40px;
+    transform: rotateY(5deg);
+  }
+  .book.show:nth-child(4) {
+    left: 0px;
+    transform: rotateY(10deg);
+  }
+
+  .carousel-item .konten .text h1 {
+    font-size: 1.5rem;
+  }
+
+  ol,
+  ul {
+    padding-left: 1.1rem;
+  }
+
+  .carousel-item .konten .text p {
+    width: 250px;
+  }
+
+  .carousel-item .konten .text p {
+    font-size: 0.65rem;
+  }
+
+  .kategori .title h1 {
+    margin-left: 2rem;
+  }
+
+  .selengkapnya {
+    margin-right: 2rem;
+  }
+
+  .col div {
+    width: 110px;
+    height: 55px;
+  }
+
+  .kartu-produk-satu .card {
+    margin: 0 0.5rem;
+  }
+
+  .konten-blog p {
+    font-size: 0.7rem;
+  }
+}

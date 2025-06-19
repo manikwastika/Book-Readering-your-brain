@@ -1,0 +1,125 @@
+@media (max-width: 530px) {
+  .navlist img {
+    width: 225px;
+    height: 70px;
+    padding: 10px;
+  }
+
+  .navlist ul {
+    top: 90px;
+  }
+
+  .konten-img {
+    width: 100px;
+    height: 160px;
+  }
+
+  .konten-img img {
+    width: 100px;
+    height: 160px;
+  }
+
+  .book.show:nth-child(1) {
+    display: none !important;
+  }
+  .book.show:nth-child(2) {
+    left: 50px;
+    transform: rotateY(-5deg);
+  }
+  .book.show:nth-child(3) {
+    left: -50px;
+    transform: rotateY(5deg);
+  }
+  .book.show:nth-child(4) {
+    left: 0px;
+    transform: rotateY(10deg);
+  }
+
+  .carousel-item .konten .text h1 {
+    font-size: 1.6rem;
+  }
+
+  .carousel-item .konten .text .pemilik {
+    font-size: 0.5rem;
+  }
+
+  .carousel-item .konten .text p {
+    width: 350px;
+    font-size: 0.7rem;
+  }
+
+  .carousel-item .konten .text button {
+    width: 5rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+  }
+
+  .kategori .title h1 {
+    margin-left: 2.5rem;
+  }
+
+  .selengkapnya {
+    margin-right: 5rem;
+  }
+
+  .selengkapnya {
+    margin-top: 4rem;
+  }
+
+  .kategori .title h1,
+  .title h1 {
+    font-size: 1.7rem;
+  }
+
+  .card {
+    width: 130px;
+    height: 325px;
+  }
+
+  .card-title {
+    font-size: 0.5rem;
+  }
+
+  .card-text {
+    font-size: 0.4rem;
+  }
+
+  .konten-blog p {
+    font-size: 0.8rem;
+  }
+
+  .saran-mereka form ul li input {
+    width: 13.5rem;
+  }
+
+  .saran-mereka form ul li textarea {
+    width: 13.5rem;
+  }
+
+  .saran-mereka form ul li button {
+    width: 100px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .footer ul h5 {
+    font-size: 0.8rem;
+  }
+
+  .footer ul li {
+    font-size: 0.7rem;
+  }
+
+  .konten3 ul li img {
+    width: 13px;
+    height: 13px;
+  }
+
+  .footer p {
+    font-size: 0.7rem;
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+  }
+}

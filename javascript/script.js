@@ -1,6 +1,6 @@
 function getdatabukukomik() {
   const data = new Request(
-    "https://www.googleapis.com/books/v1/volumes?q=subject:comics&maxResults=40",
+    "https://www.googleapis.com/books/v1/volumes?q=subject:graphic%20novel&maxResults=40",
     {
       method: "GET",
       headers: {

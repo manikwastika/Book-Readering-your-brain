@@ -655,6 +655,10 @@ ul {
   opacity: 0.9;
 }
 
+.nopadding {
+  padding-left: 0rem;
+}
+
 .copyright {
   width: 100%;
   background-color: rgb(39, 39, 39);
