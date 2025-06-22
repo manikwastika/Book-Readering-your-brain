@@ -62,4 +62,18 @@
   .konten-blog p {
     font-size: 0.7rem;
   }
+
+  .footer ul h5 {
+    font-size: 0.7rem;
+  }
+
+  .footer ul li,
+  .footer p {
+    font-size: 0.5rem;
+  }
+
+  .konten3 ul li img {
+    width: 10px;
+    height: 10px;
+  }
 }

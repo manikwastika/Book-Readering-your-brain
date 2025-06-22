@@ -70,8 +70,8 @@ function getdatabukukomik() {
         }
       });
       elemen_judul.forEach((h5, index) => {
-        if (semuajudulbukukomik[index + 1]) {
-          h5.textContent = semuajudulbukukomik[index + 1];
+        if (semuajudulbukukomik[index]) {
+          h5.textContent = semuajudulbukukomik[index];
         }
       });
     });
